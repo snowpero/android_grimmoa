@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="main_bg_color">#4CB4FF</color>
+
+    <color name="post_item_txt_color">#3A3A3A</color>
+    <color name="post_item_sub_txt_color">#9BA3B2</color>
+    <color name="post_item_img_divider_color">#FF722F</color>
+    <color name="post_item_divider_color">#BABBB5</color>
+    <color name="post_item_bg_color">#F3F4EE</color>
+</resources>

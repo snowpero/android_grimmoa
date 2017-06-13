@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_color"
+    >
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <com.ninis.grimmoa.custom.FixedRecyclerView
+            android:id="@+id/rv_img_post_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/img_post_spacing"
+            android:paddingRight="@dimen/img_post_spacing"
+            android:scrollbars="vertical"
+            ></com.ninis.grimmoa.custom.FixedRecyclerView>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/main_bg_color"
+            app:layout_scrollFlags="scroll|enterAlways"
+            >
+
+            <include layout="@layout/layout_toolbar"></include>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <io.github.yuweiguocn.lib.squareloading.SquareLoading
+        android:id="@+id/squareLoading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="#99000000"
+        android:visibility="gone"
+        ></io.github.yuweiguocn.lib.squareloading.SquareLoading>
+
+    <ImageView
+        android:id="@+id/iv_scroll_top_btn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/up_arrow_icon_yellow"
+        />
+
+</android.support.design.widget.CoordinatorLayout>

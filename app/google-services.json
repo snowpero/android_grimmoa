@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "329543925964",
+    "firebase_url": "https://grimmoa-b436a.firebaseio.com",
+    "project_id": "grimmoa-b436a",
+    "storage_bucket": "grimmoa-b436a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329543925964:android:cfc53a69a6643b5d",
+        "android_client_info": {
+          "package_name": "com.ninis.grimmoa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329543925964-reah68f01t2f7u1e0mtskqdq9ihds0ks.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ninis.grimmoa",
+            "certificate_hash": "4844ca2e171533b1c008754bc676c2a01fb830f5"
+          }
+        },
+        {
+          "client_id": "329543925964-e8dogfc038m62uu47n2ba0eciai7m7ti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC923ZjY51-UihJFzzEZYPg4lKkkzcHHjc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

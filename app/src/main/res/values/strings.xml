@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">그림모아</string>
+
+    <string name="txt_confirm">확인</string>
+
+    <!-- For AdMob -->
+    <string name="banner_ad_unit_id">ca-app-pub-8661025355202977/2837009044</string>
+    <string name="admob_app_id">ca-app-pub-8661025355202977~1360275847</string>
+
+    <!-- Info Dialog -->
+    <string name="dlg_info_title">그림모아는...</string>
+    <string name="dlg_ingo_content">각 커뮤니티의 사진게시판을 모아서 한꺼번에 보여줍니다.\n</string>
+    <string name="dlg_info_board_list">[ 지원 게시판 목록 ]\n#뽐뿌 - 자유갤러리\n#오늘의유머 - 사진게시판(썸네일없음)\n#slrclub - 작품갤러리\n#팝코넷 - 포토갤러리\n</string>
+    
+    <string name="dlg_info_contact">snowpero@gmail.com</string>
+</resources>
